@@ -14,7 +14,6 @@
 		9B0D7CF41961BDEA0093EDD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D7CF31961BDEA0093EDD5 /* main.m */; };
 		9B0D7CF81961BDEA0093EDD5 /* VenonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D7CF71961BDEA0093EDD5 /* VenonAppDelegate.m */; };
 		9B0D7CFB1961BDEA0093EDD5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D7CF91961BDEA0093EDD5 /* Main_iPhone.storyboard */; };
-		9B0D7CFE1961BDEA0093EDD5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D7CFC1961BDEA0093EDD5 /* Main_iPad.storyboard */; };
 		9B0D7D011961BDEA0093EDD5 /* VenonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D7D001961BDEA0093EDD5 /* VenonViewController.m */; };
 		9B0D7D031961BDEA0093EDD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D7D021961BDEA0093EDD5 /* Images.xcassets */; };
 		9B0D7D0A1961BDEA0093EDD5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0D7D091961BDEA0093EDD5 /* XCTest.framework */; };
@@ -22,6 +21,11 @@
 		9B0D7D0C1961BDEA0093EDD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0D7CEB1961BDEA0093EDD5 /* UIKit.framework */; };
 		9B0D7D141961BDEA0093EDD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D7D121961BDEA0093EDD5 /* InfoPlist.strings */; };
 		9B0D7D161961BDEA0093EDD5 /* venonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D7D151961BDEA0093EDD5 /* venonTests.m */; };
+		9BF8A1F71961D43100407001 /* VenonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8A1F61961D43100407001 /* VenonTableViewController.m */; };
+		9BF8A1FA1961DE1600407001 /* VenonFriendObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8A1F91961DE1600407001 /* VenonFriendObject.m */; };
+		9BF8A1FD196302AC00407001 /* VenonMakePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8A1FC196302AC00407001 /* VenonMakePayment.m */; };
+		9BF8A207196451A200407001 /* makePaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8A206196451A200407001 /* makePaymentViewController.m */; };
+		CC47CEEA15614313A1E770AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDEF329220F4F5DBE3F2440 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BDEF329220F4F5DBE3F2440 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0D7CE41961BDEA0093EDD5 /* venon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = venon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0D7CE71961BDEA0093EDD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B0D7CE91961BDEA0093EDD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +51,6 @@
 		9B0D7CF61961BDEA0093EDD5 /* VenonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenonAppDelegate.h; sourceTree = "<group>"; };
 		9B0D7CF71961BDEA0093EDD5 /* VenonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenonAppDelegate.m; sourceTree = "<group>"; };
 		9B0D7CFA1961BDEA0093EDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		9B0D7CFD1961BDEA0093EDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		9B0D7CFF1961BDEA0093EDD5 /* VenonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenonViewController.h; sourceTree = "<group>"; };
 		9B0D7D001961BDEA0093EDD5 /* VenonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenonViewController.m; sourceTree = "<group>"; };
 		9B0D7D021961BDEA0093EDD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 		9B0D7D111961BDEA0093EDD5 /* venonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "venonTests-Info.plist"; sourceTree = "<group>"; };
 		9B0D7D131961BDEA0093EDD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B0D7D151961BDEA0093EDD5 /* venonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = venonTests.m; sourceTree = "<group>"; };
+		9BF8A1F51961D43100407001 /* VenonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenonTableViewController.h; sourceTree = "<group>"; };
+		9BF8A1F61961D43100407001 /* VenonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenonTableViewController.m; sourceTree = "<group>"; };
+		9BF8A1F81961DE1600407001 /* VenonFriendObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenonFriendObject.h; sourceTree = "<group>"; };
+		9BF8A1F91961DE1600407001 /* VenonFriendObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenonFriendObject.m; sourceTree = "<group>"; };
+		9BF8A1FB196302AC00407001 /* VenonMakePayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenonMakePayment.h; sourceTree = "<group>"; };
+		9BF8A1FC196302AC00407001 /* VenonMakePayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenonMakePayment.m; sourceTree = "<group>"; };
+		9BF8A205196451A200407001 /* makePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = makePaymentViewController.h; path = ../Pods/makePaymentViewController.h; sourceTree = "<group>"; };
+		9BF8A206196451A200407001 /* makePaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = makePaymentViewController.m; path = ../Pods/makePaymentViewController.m; sourceTree = "<group>"; };
+		ED39E0C315954A20AAC4B70D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +78,7 @@
 				9B0D7CEA1961BDEA0093EDD5 /* CoreGraphics.framework in Frameworks */,
 				9B0D7CEC1961BDEA0093EDD5 /* UIKit.framework in Frameworks */,
 				9B0D7CE81961BDEA0093EDD5 /* Foundation.framework in Frameworks */,
+				CC47CEEA15614313A1E770AB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +102,7 @@
 				9B0D7D0F1961BDEA0093EDD5 /* venonTests */,
 				9B0D7CE61961BDEA0093EDD5 /* Frameworks */,
 				9B0D7CE51961BDEA0093EDD5 /* Products */,
+				ED39E0C315954A20AAC4B70D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +122,7 @@
 				9B0D7CE91961BDEA0093EDD5 /* CoreGraphics.framework */,
 				9B0D7CEB1961BDEA0093EDD5 /* UIKit.framework */,
 				9B0D7D091961BDEA0093EDD5 /* XCTest.framework */,
+				7BDEF329220F4F5DBE3F2440 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,9 +131,16 @@
 			isa = PBXGroup;
 			children = (
 				9B0D7CF61961BDEA0093EDD5 /* VenonAppDelegate.h */,
+				9BF8A1F81961DE1600407001 /* VenonFriendObject.h */,
+				9BF8A1F91961DE1600407001 /* VenonFriendObject.m */,
+				9BF8A1F51961D43100407001 /* VenonTableViewController.h */,
+				9BF8A1F61961D43100407001 /* VenonTableViewController.m */,
+				9BF8A205196451A200407001 /* makePaymentViewController.h */,
+				9BF8A206196451A200407001 /* makePaymentViewController.m */,
+				9BF8A1FB196302AC00407001 /* VenonMakePayment.h */,
+				9BF8A1FC196302AC00407001 /* VenonMakePayment.m */,
 				9B0D7CF71961BDEA0093EDD5 /* VenonAppDelegate.m */,
 				9B0D7CF91961BDEA0093EDD5 /* Main_iPhone.storyboard */,
-				9B0D7CFC1961BDEA0093EDD5 /* Main_iPad.storyboard */,
 				9B0D7CFF1961BDEA0093EDD5 /* VenonViewController.h */,
 				9B0D7D001961BDEA0093EDD5 /* VenonViewController.m */,
 				9B0D7D021961BDEA0093EDD5 /* Images.xcassets */,
@@ -162,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B0D7D191961BDEA0093EDD5 /* Build configuration list for PBXNativeTarget "venon" */;
 			buildPhases = (
+				05BF92AFA6EA4D19B4EFC769 /* Check Pods Manifest.lock */,
 				9B0D7CE01961BDEA0093EDD5 /* Sources */,
 				9B0D7CE11961BDEA0093EDD5 /* Frameworks */,
 				9B0D7CE21961BDEA0093EDD5 /* Resources */,
+				A38EDD9D31614B7AABCF1C0A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +257,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0D7CFE1961BDEA0093EDD5 /* Main_iPad.storyboard in Resources */,
 				9B0D7D031961BDEA0093EDD5 /* Images.xcassets in Resources */,
 				9B0D7CFB1961BDEA0093EDD5 /* Main_iPhone.storyboard in Resources */,
 				9B0D7CF21961BDEA0093EDD5 /* InfoPlist.strings in Resources */,
@@ -249,13 +273,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05BF92AFA6EA4D19B4EFC769 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A38EDD9D31614B7AABCF1C0A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B0D7CE01961BDEA0093EDD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9B0D7CF41961BDEA0093EDD5 /* main.m in Sources */,
+				9BF8A1FA1961DE1600407001 /* VenonFriendObject.m in Sources */,
 				9B0D7D011961BDEA0093EDD5 /* VenonViewController.m in Sources */,
+				9BF8A207196451A200407001 /* makePaymentViewController.m in Sources */,
+				9BF8A1FD196302AC00407001 /* VenonMakePayment.m in Sources */,
+				9BF8A1F71961D43100407001 /* VenonTableViewController.m in Sources */,
 				9B0D7CF81961BDEA0093EDD5 /* VenonAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +354,6 @@
 				9B0D7CFA1961BDEA0093EDD5 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		9B0D7CFC1961BDEA0093EDD5 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B0D7CFD1961BDEA0093EDD5 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		9B0D7D121961BDEA0093EDD5 /* InfoPlist.strings */ = {
@@ -388,6 +441,7 @@
 		};
 		9B0D7D1A1961BDEA0093EDD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED39E0C315954A20AAC4B70D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -395,12 +449,14 @@
 				GCC_PREFIX_HEADER = "venon/venon-Prefix.pch";
 				INFOPLIST_FILE = "venon/venon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		9B0D7D1B1961BDEA0093EDD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED39E0C315954A20AAC4B70D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -408,6 +464,7 @@
 				GCC_PREFIX_HEADER = "venon/venon-Prefix.pch";
 				INFOPLIST_FILE = "venon/venon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +528,7 @@
 				9B0D7D1B1961BDEA0093EDD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B0D7D1C1961BDEA0093EDD5 /* Build configuration list for PBXNativeTarget "venonTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +537,7 @@
 				9B0D7D1E1961BDEA0093EDD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
